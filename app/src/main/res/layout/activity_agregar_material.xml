@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@drawable/fondoapp">
+
+    <TextView
+        android:id="@+id/tvTituloAgregarMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Registrar nuevo material"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/etNombreMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del material"
+        android:textColor="#1A1818"
+        android:textColorHint="#181515" />
+
+    <EditText
+        android:id="@+id/etDescripcionMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción"
+        android:textColor="#1A1818"
+        android:textColorHint="#211C1C" />
+
+    <EditText
+        android:id="@+id/etStockActual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock actual"
+        android:inputType="number"
+        android:textColor="#1A1818"
+        android:textColorHint="#1F1B1B" />
+
+    <EditText
+        android:id="@+id/etStockMinimo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Stock mínimo"
+        android:inputType="number"
+        android:textColor="#1A1818"
+        android:textColorHint="#1D1919" />
+
+    <Button
+        android:id="@+id/btnGuardarMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guardar"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
