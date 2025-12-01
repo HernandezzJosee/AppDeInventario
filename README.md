@@ -112,8 +112,8 @@ CREATE TABLE movimientos (
 ```
 
 # Usuario Administrador creado por defecto
-INSERT INTO usuarios (nombre, usuario, contrasena, rol)
-VALUES ('Administrador', 'Supervisor', 'Empleado')
+<pre> ```sql INSERT INTO usuarios (nombre, usuario, contrasena, rol)
+VALUES ('Administrador', 'admin', '1234', 'admin');``` </pre>
 
 # Nota importante sobre el script SQL
 >[!WARNING]
