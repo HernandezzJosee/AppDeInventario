@@ -48,7 +48,7 @@ El Usuario puede crear su cuenta, pero en los roles solo puede seleccionar:
 # Permisos y Restricciones por Rol
 -Se aplica un control de acceso segun el rol del Usuario.Cada Usuario tiene privilegios dentro de la aplicacion.
 
-##Administrador
+## Administrador
 Acceso Total:
 -Gestion Completa de Usuarios (Crear, Ver Lista, Eliminar)
 -Gestion de Materiales
