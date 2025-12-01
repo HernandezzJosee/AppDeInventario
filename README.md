@@ -110,20 +110,18 @@ INSERT INTO usuarios (nombre, usuario, contrasena, rol)
 VALUES ('Administrador', 'Supervisor', 'Empleado')
 
 # Nota importante sobre el script SQL
-<p style="background-color:#F8D7DA; color:#842029; padding:10px; border-left:5px solid #D9534F;">
-<strong> Nota importante sobre el script SQL</strong><br>
-El proyecto utiliza <strong>SQLite</strong>, una base de datos interna integrada en Android.<br><br>
-El script SQL mostrado anteriormente en este repositorio está diseñado exclusivamente para SQLite, ya que utiliza sintaxis como:<br>
-- <strong>INTEGER PRIMARY KEY AUTOINCREMENT</strong><br>
-- Tipos como <strong>TEXT</strong> y <strong>INTEGER</strong><br>
-- Sin soporte de claves foráneas complejas<br>
-</p>
+>[!WARNING]
+El proyecto utiliza SQLite, una base de datos interna integrada en Android.<br><br>
+El script SQL mostrado anteriormente en este repositorio está diseñado exclusivamente para SQLite, ya que utiliza sintaxis como:
+- INTEGER PRIMARY KEY AUTOINCREMENT
+- Tipos como TEXT y INTEGER
+- Sin soporte de claves foráneas complejas
 
-<p style="background-color:#D1E7DD; color:#0F5132; padding:10px; border-left:5px solid #28A745;">
-<strong>ℹ️ Importante:</strong><br>
-Si deseas usar <strong>MySQL</strong>, <strong>MariaDB</strong> o <strong>PostgreSQL</strong>, este script <strong>NO es compatible directamente</strong>.<br>
+>[!TIP]
+Importante:
+Si deseas usar MySQL, MariaDB o PostgreSQL, este script NO es compatible directamente.
 Será necesario adaptarlo a la sintaxis y características del motor de base de datos que desees probar.
-</p>
+
 
 
 
