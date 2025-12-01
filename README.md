@@ -77,7 +77,8 @@ Acceso Limitado:
 - Gradle
 
 # Script de Tablas SQL
-- Tabla Usuarios
+## Tabla Usuarios
+```sql
 CREATE TABLE Usuarios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   nombre TEXT,
@@ -85,8 +86,10 @@ CREATE TABLE Usuarios (
   contrasena TEXT,
   rol TEXT
   );
+```
 
-- Tabla Materiales
+## Tabla Materiales
+```sql
 CREATE TABLE materiales (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   nombre TEXT,
@@ -94,8 +97,10 @@ CREATE TABLE materiales (
   stock_actual INTEGER,
   stock_minimo INTEGER
 );
+```
 
-- Table Movimientos
+## Table Movimientos
+```sql
 CREATE TABLE movimientos (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   tipo TEXT;
@@ -104,6 +109,7 @@ CREATE TABLE movimientos (
   comentario TEXT,
   fecha TEXT
   );
+```
 
 # Usuario Administrador creado por defecto
 INSERT INTO usuarios (nombre, usuario, contrasena, rol)
