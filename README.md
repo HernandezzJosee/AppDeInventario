@@ -1,51 +1,51 @@
-#Sistema de Inventario (Android Studio)
+# Sistema de Inventario (Android Studio)
 
-#Descripcion
+# Descripcion
 -Aplicacion Movil desarrollado en Android Studio para gestion de inventario interno.
 -Permite crear usuarios y darle un rol en especifico.
 -Administra tanto usuarios,materiales, movimientos y generacion de reporte.
 
-#Funcionalidades Principales
+# Funcionalidades Principales
 
-##Gestion de Usuarios
+## Gestion de Usuarios
 -Crear, Ver lista y eliminar Usuario.
 -Roles disponibles:
 -Administrador
 -Supervisor
 -Empleado
 
-##Formas de creacion de Usuario
+## Formas de creacion de Usuario
 
-###1.Creado por el Administrador
+### 1.Creado por el Administrador
 El administrador puede agregar usuarios y asignarles un rol:
 -Administrador
 -Supervisor
 -Empleado
 
-###2.Registro directo por parte del Usuario
+### 2.Registro directo por parte del Usuario
 El Usuario puede crear su cuenta, pero en los roles solo puede seleccionar:
 -Supervisor
 -Empleado
 
-#Gestion de Materiales
+# Gestion de Materiales
 -Agregar Materiales
 -Comentarios (Opcionales)
 -Ver lista completa 
 -Visualizacion de Stock actual y minimo
 -Eliminar Materiales
 
-##Registro de Movimiento
+## Registro de Movimiento
 -Registrar Entradas o Salidas
 -Ver solo materiales que esten agregados
 -Cantidad de material
 -Comentario opcional
 
-##Reporte
+## Reporte
 -Seleccion de tipo de movimiento (entrada, salida o ajuste)
 -Seleccion de Fecha 
 -Generacion de reporte 
 
-#Permisos y Restricciones por Rol
+# Permisos y Restricciones por Rol
 -Se aplica un control de acceso segun el rol del Usuario.Cada Usuario tiene privilegios dentro de la aplicacion.
 
 ##Administrador
@@ -55,28 +55,28 @@ Acceso Total:
 -Registro de Movimiento
 -Generar Reporte
 
-##Supervisor 
+## Supervisor 
 Acceso Intermedio:
 -Gestion de Materiales
 -Registro de Movimiento
 -Generar Reporte
 -No tiene acceso a Usuarios (no puede Crear, Ver Lista, Eliminar)
 
-##Empleado
+## Empleado
 Acceso Limitado:
 -Registrar Movimiento
 -Consultar Reporte
 -No puede gestionar usuarios
 -No puede gestionar materiales
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 -Java (Android)
 -Android Studio
 -SQLite 
 -Xml (Iterfaces)
 -Gradle
 
-#Script de Tablas SQL
+# Script de Tablas SQL
 -Tabla Usuarios
 CREATE TABLE Usuarios (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -105,11 +105,11 @@ CREATE TABLE movimientos (
   fecha TEXT
   );
 
-#Usuario Administrador creado por defecto
+# Usuario Administrador creado por defecto
 INSERT INTO usuarios (nombre, usuario, contrasena, rol)
 VALUES ('Administrador', 'Supervisor', 'Empleado')
 
-#Nota importante sobre el script SQL
+# Nota importante sobre el script SQL
 <p style="background-color:#F8D7DA; color:#842029; padding:10px; border-left:5px solid #D9534F;">
 <strong> Nota importante sobre el script SQL</strong><br>
 El proyecto utiliza <strong>SQLite</strong>, una base de datos interna integrada en Android.<br><br>
