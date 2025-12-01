@@ -1,18 +1,18 @@
 # Sistema de Inventario (Android Studio)
 
 # Descripcion
--Aplicacion Movil desarrollado en Android Studio para gestion de inventario interno.
--Permite crear usuarios y darle un rol en especifico.
--Administra tanto usuarios,materiales, movimientos y generacion de reporte.
+- Aplicacion Movil desarrollado en Android Studio para gestion de inventario interno.
+- Permite crear usuarios y darle un rol en especifico.
+- Administra tanto usuarios,materiales, movimientos y generacion de reporte.
 
 # Funcionalidades Principales
 
 ## Gestion de Usuarios
 - Crear, Ver lista y eliminar Usuario.
--Roles disponibles:
--Administrador
--Supervisor
--Empleado
+- Roles disponibles:
+- Administrador
+- Supervisor
+- Empleado
 
 ## Formas de creacion de Usuario
 
