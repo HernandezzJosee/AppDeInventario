@@ -8,7 +8,7 @@
 # Funcionalidades Principales
 
 ## Gestion de Usuarios
--Crear, Ver lista y eliminar Usuario.
+- Crear, Ver lista y eliminar Usuario.
 -Roles disponibles:
 -Administrador
 -Supervisor
