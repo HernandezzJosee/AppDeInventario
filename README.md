@@ -73,7 +73,7 @@ Acceso Limitado:
 - Java (Android)
 - Android Studio
 - SQLite 
-- Xml (Iterfaces)
+- Xml (Interfaces)
 - Gradle
 
 # Script de Tablas SQL
